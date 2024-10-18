@@ -5,9 +5,8 @@ body {
 }
 body h1, header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
+  justify-content: center;
+  padding: 1rem 0;
   background-color: #13293d;
   color: #fff;
 }
@@ -23,15 +22,14 @@ body h1, header {
 .cards-container{
   display: flex;
   flex-wrap: wrap;
-  background: lightgrey;
   justify-content: center;
+  margin: 2rem 0;
 }
 
 .card{
   display: flex;
   flex-direction: column;
   background: gray;
-  min-width: 3rem;
   border: 1px solid beige;
   min-width: 30%;
   margin: 1rem;
@@ -54,6 +52,7 @@ code {
   margin: 0 auto;
   transform: translate(0, -1.5rem);
   justify-content: center;
+  border: 1px solid ghostwhite;
 }
 
 .card-subheader p{
@@ -66,6 +65,10 @@ footer {
   padding: 2%;
   background-color: #13293d;
   color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
